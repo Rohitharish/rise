@@ -466,21 +466,19 @@
           <div class="quote-card">
             <div class="quote-card__header">
               <h3 class="quote-card__title">3.</h3>
-              <h3 class="quote-card__title">Official NDIS Audit</h3>
+              <h3 class="quote-card__title">Initial Audit / Registration Support</h3>
             </div>
 
-            <div class="quote-card__div">
+            <!-- <div class="quote-card__div">
               <h4 class="quote-card__small-title">
                 Professional third-party audit conducted by certified NDIS
                 auditors for registration compliance.
               </h4>
-            </div>
+            </div> -->
 
             <div class="quote-card-note">
               <p class="quote-card-note__paragraph">
-                <span class="bold">Note:</span> The official audit is not
-                included in this package. Rise can refer you to a registered
-                auditor and support you through the process.
+                <span class="bold">Note:</span> Rise provides strategic guidance and recommendations. It is the provider’s responsibility to implement, trial, and execute these activities. Rise is not responsible for business outcomes or performance.
               </p>
             </div>
 
@@ -493,11 +491,10 @@
                   <ul class="quote-card-list">
                     <li
                       v-for="item in [
-                        'Certified third-party audit',
-                        'NDIS Practice Standards compliance review',
-                        'Comprehensive audit report',
-                        'Certificate of compliance (if successful)',
-                        'Post-audit support for any required corrections',
+                        'Guidance on attending festivals',
+                        'Networking',
+                        'Building community support to strengthen provider market presence.',
+                      
                       ]"
                       class="quote-card-list__item"
                     >
@@ -602,12 +599,12 @@
             <div class="quote-card__div quote-card__summary">
               <div class="quote-summary">
                 <h4 class="quote-summary__title">Advance Payment</h4>
-                <p class="quote-summary__value">AU$5,000</p>
+                <p class="quote-summary__value">AU$500</p>
               </div>
 
               <div class="quote-summary">
                 <h4 class="quote-summary__title">Final Payment</h4>
-                <p class="quote-summary__value">AU$2,000</p>
+                <p class="quote-summary__value">AU$2000</p>
               </div>
             </div>
           </div>
