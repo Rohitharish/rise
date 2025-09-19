@@ -29,7 +29,7 @@
 
         <div>
           <p class="founder-letter__paragraph">
-            My name is Dr. Giselle Torres Pabón, and I will be your main point
+            My name is Dr. Giselle Torres Pabón, and Pooja will be your main point
             of contact here at Rise Health. As a lead auditor in NDIS quality
             systems, I’ve seen how complicated the registration and audit
             process can be for providers — and how much time it takes away from

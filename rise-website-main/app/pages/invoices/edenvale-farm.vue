@@ -275,7 +275,7 @@
                   </div>
 
                   <div class="quote-price-card__footer">
-                    <p class="quote-price-card__price">$3,500</p>
+                    <p class="quote-price-card__price">$2,500</p>
                     <p class="quote-price-card__duration">
                       / per year R.R.P $4,990
                     </p>
@@ -444,7 +444,7 @@
                   </ul>
                 </div>
 
-                <div class="quote-price-card">
+                <!-- <div class="quote-price-card">
                   <div class="quote-price-card__header">
                     <h5 class="quote-price-card__title">One-time fee</h5>
                     <svg class="quote-price-card__icon">
@@ -458,7 +458,7 @@
                       / One time fee, R.R.P $990
                     </p>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -509,7 +509,7 @@
                   </ul>
                 </div>
 
-                <div class="quote-price-card">
+                <!-- <div class="quote-price-card">
                   <div class="quote-price-card__header">
                     <h5 class="quote-price-card__title">One-time fee</h5>
                     <svg class="quote-price-card__icon">
@@ -523,12 +523,12 @@
                       depending on registration scope and complexity
                     </p>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
-          <div class="quote-card">
+          <!-- <div class="quote-card">
             <div class="quote-card__header">
               <h3 class="quote-card__title">4.</h3>
               <h3 class="quote-card__title">Trademarking Service</h3>
@@ -581,7 +581,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="quote-heading">
             <h3 class="quote-heading__title">Payment terms</h3>
