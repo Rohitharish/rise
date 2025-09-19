@@ -656,7 +656,7 @@
         <div class="next-steps__buttons">
           <a
             ref="nextStepsBtns"
-            href="https://buy.stripe.com/3cIaEXfm3gaB7N6gIb3gk00"
+            href="https://buy.stripe.com/9B68wPddVaQhaZigIb3gk01"
             target="_blank"
             class="next-step-btn"
           >
