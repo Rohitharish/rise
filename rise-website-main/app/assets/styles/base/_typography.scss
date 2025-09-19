@@ -1,0 +1,89 @@
+@use "../abstracts/variables" as vars;
+@use "../vendor/breakpoints" as brkpts;
+
+
+// Import fonts
+// FH Lecturis
+@font-face {
+    font-family: "FH Lecturis";
+    src: url("/fonts/fh-lecturis/FHLecturisTest-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FH Lecturis";
+    src: url("/fonts/fh-lecturis/FHLecturisTest-Light.otf");
+    font-weight: 200;
+    font-style: normal;
+}
+
+// PP Editorial
+@font-face {
+    font-family: "PP Editorial New";
+    src: url("/fonts/pp-editorial-new/PPEditorialNew-Ultralight.otf");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PP Editorial New";
+    src: url("/fonts/pp-editorial-new/PPEditorialNew-UltralightItalic.otf");
+    font-weight: 200;
+    font-style: italic;
+}
+
+// Favorit
+@font-face {
+    font-family: "Favorit";
+    src: url("/fonts/favorit/ABCFavoritExpanded-Regular-Trial.woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+// DM Sans
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+// Type Styles go here
+%heading-1 {
+    font-family: vars.$font-fh-lecturis;
+    font-size: 8.4rem;
+    line-height: 106%;
+    letter-spacing: -0.03em;
+
+    @include brkpts.media(">tablet") {
+        font-size: 12rem;
+    }
+}
+
+%heading-2 {
+    font-family: vars.$font-favorit;
+    font-size: 6.4rem;
+    letter-spacing: -0.02em;
+    line-height: 106%;
+
+    @include brkpts.media(">tablet") {
+        font-size: 7.2rem;
+    }
+}
+
+%heading-3 {
+    font-family: vars.$font-fh-lecturis;
+    font-size: 3.2rem;
+    letter-spacing: -0.01em;
+}
+
+%body-md {
+    font-family: vars.$font-dm-sans;
+    font-size: clamp(16px, 1dvw, 2rem);
+    line-height: 120%;
+    letter-spacing: -0.01em;
+}
+
+%body-sm {
+    font-family: vars.$font-dm-sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+}

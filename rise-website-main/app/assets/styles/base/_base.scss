@@ -1,0 +1,69 @@
+@use "../abstracts/variables" as vars;
+@use "../vendor/breakpoints" as brkpts;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+
+    font-size: calc(100vw / 1440 * 10);
+
+    @include brkpts.media("<=tablet") {
+        font-size: calc(100vw / 768 * 10);
+    }
+
+    @include brkpts.media("<=mobileM") {
+        font-size: calc(100vw / 550 * 10);
+    }
+
+    @include brkpts.media("<=mobile") {
+        font-size: calc(100vw / 375 * 10);
+    }
+}
+
+// General Styles
+
+body {
+    font-family: vars.$font-dm-sans;
+    overscroll-behavior: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: vars.$black;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

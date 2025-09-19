@@ -1,0 +1,35 @@
+// Fonts
+$font-fh-lecturis: "FH Lecturis", sans-serif;
+$font-pp-editorial: "PP Editorial New", serif;
+$font-favorit: "Favorit", sans-serif;
+$font-dm-sans: "DM Sans", sans-serif;
+
+// Colors
+$white: #fff;
+$black: #1B1B1B;
+$grey: #525558;
+$brown: #955F00;
+
+$blue-bg: #9EF4FF;
+$blue-dark: #007E9E;
+$blue-black: #525558;
+
+// Z-index
+$z-indexes: (
+    "cursor",
+    "toast",
+    "page-transition",
+    "preloader",
+    "overlay",
+    "modal",
+    "nav",
+    "menu",
+    "4",
+    "3",
+    "2",
+    "1"
+);
+
+// border-radius
+$border-radius: 0.8rem;
+$border-radius-sm: 0.6rem;

@@ -1,0 +1,14 @@
+@use "../abstracts/variables" as vars;
+@use "sass:list";
+
+// Z-index
+@function z($name) {
+    @if list.index(vars.$z-indexes, $name) {
+        @return (list.length(vars.$z-indexes) - list.index(vars.$z-indexes, $name))+1;
+    }
+
+    @else {
+        @warn 'There is no item "#{$name}" in this list; Choose one of: #{vars.$z-indexes}';
+        @return null;
+    }
+}

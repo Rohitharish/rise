@@ -1,0 +1,54 @@
+@use "../abstracts/functions" as func;
+@use "../abstracts/variables" as vars;
+@use "../vendor/breakpoints" as brkpts;
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: func.z('modal');
+
+    @include brkpts.media("<=tablet") {
+        padding: 0 1.6rem;
+    }
+
+    &__inner {
+        background: vars.$white;
+        padding: 1.6rem 1.6rem;
+        border-radius: 0.4rem;
+        max-height: 90dvh;
+        overflow-y: auto;
+
+        @include brkpts.media(">tablet") {
+            width: 80%;
+            margin: 0 auto;
+            padding: 3rem 1.6rem;
+        }
+
+    }
+
+    &__close-btn {
+        background: none;
+        color: #F83B66;
+        font-size: 1.4rem;
+        font-family: vars.$font-dm-sans;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        padding: 1rem;
+        margin-left: auto;
+        display: block;
+        cursor: pointer;
+
+        margin-bottom: 3rem;
+
+        position: sticky;
+        top: 0;
+    }
+}

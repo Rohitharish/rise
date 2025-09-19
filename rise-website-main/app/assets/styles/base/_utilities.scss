@@ -1,0 +1,29 @@
+@use "../vendor/breakpoints" as brkpts;
+@use "../abstracts/variables" as vars;
+
+.container {
+    padding: 0 1.6rem;
+
+    @include brkpts.media(">tablet") {
+        padding: 0;
+        width: 94%;
+        margin: 0 auto;
+    }
+}
+
+// Text utilities
+.italic {
+    font-style: italic;
+}
+
+.font-fh-lecturis {
+    font-family: vars.$font-fh-lecturis;
+}
+
+.font-pp-editorial {
+    font-family: vars.$font-pp-editorial;
+}
+
+.font-favorit {
+    font-family: vars.$font-favorit;
+}

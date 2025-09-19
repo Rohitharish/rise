@@ -1,0 +1,42 @@
+@use "../abstracts/variables" as vars;
+@use "../vendor/breakpoints" as brkpts;
+
+.invoice-footer {
+    background: #FCF2D4;
+    padding-bottom: 6rem;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        gap: 2.2rem;
+
+        @include brkpts.media("<=mobileM") {
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+    }
+
+    &__link {
+        display: inline-flex;
+        gap: 0.6rem;
+        justify-content: center;
+        align-items: center;
+
+        padding: 1.4rem 2rem;
+        background: #955F00;
+        color: vars.$white;
+
+        border-radius: 3.2rem;
+    }
+
+    &__link-icon {
+        width: 1.4rem;
+        height: 1.4rem;
+        color: white;
+    }
+
+    &__link-text {
+        font-size: 1.2rem;
+        font-family: vars.$font-dm-sans;
+    }
+}
